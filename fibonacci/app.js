@@ -3,7 +3,7 @@ function fibs(n){
 	let arr = [];
 	if(n < 0){
 		console.log('enter a integer value greater than zero');
-        return;
+		return;
 	}
 	for(let i = 0; i < n; i++){
 		arr.push(f);
@@ -13,12 +13,10 @@ function fibs(n){
 	}
 	console.log(arr);
 }
-
 fibs(-1);
 
 let f = 0, s = 1;
 let arr = [];
-
 function fibsRec(n){
 	if(n === 0){
 		console.log(arr);
